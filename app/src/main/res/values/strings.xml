@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notebook</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_tasker">TaskerActivity</string>
+</resources>
