@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_text_item"
+        android:layout_width="270sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:onClick="onDelete"
+        android:background="@drawable/ic_delete"
+        android:backgroundTint="@color/colorRed"/>
+
+</LinearLayout>

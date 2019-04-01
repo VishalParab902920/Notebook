@@ -10,20 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TaskerActivity"
-            android:label="@string/title_activity_tasker"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity
             android:name=".NoteActivity"
             android:label="@string/title_activity_note"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TaskActivity"
+            android:label="@string/title_activity_task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TaskEditActivity"
+            android:label="@string/title_activity_task_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ToDoActivity"
+            android:label="@string/title_activity_to_do"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

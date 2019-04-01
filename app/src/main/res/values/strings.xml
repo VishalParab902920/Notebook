@@ -2,4 +2,7 @@
     <string name="app_name">Notebook</string>
     <string name="title_activity_note">NoteActivity</string>
     <string name="title_activity_tasker">TaskerActivity</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <string name="title_activity_task_edit">TaskEditActivity</string>
+    <string name="title_activity_to_do">ToDoActivity</string>
 </resources>

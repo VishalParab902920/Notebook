@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void navigateToTasker(View view)
     {
-        startActivity(new Intent(this,TaskerActivity.class));
+        startActivity(new Intent(this,TaskActivity.class));
     }
 
 }
